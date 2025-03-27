@@ -16,3 +16,15 @@
 // Напишите реализацию алгоритма.
 
 
+const a = 4;
+const b = 4;
+const c = 4;
+let maxNum = a;
+
+if (b > maxNum) {
+	maxNum = b;
+}
+if (c > maxNum) {
+	maxNum = c;
+}
+console.log(maxNum);
