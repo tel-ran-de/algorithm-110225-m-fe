@@ -9,3 +9,24 @@
 // Если строки равны, вывести "Строка - палиндром".
 // Иначе, вывести "Строка - не палиндром".
 // Конец.
+
+let isPalindrome = 'ollo';
+let reverse = '';
+
+for (let i = isPalindrome.length - 1; i >= 0 ; i--) {
+    reverse = reverse + isPalindrome[i]
+    console.log(reverse);
+}
+
+if (isPalindrome === reverse) {
+    console.log('palindrome');
+    
+}
+else{
+    console.log('not a palindrome');
+    
+}
+
+
+
+

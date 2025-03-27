@@ -9,3 +9,12 @@
 // Добавить символ в конец результирующей строки.
 // Вывести результирующую строку.
 // Конец.
+
+let string = 'Hello';
+let stringReverse = '';
+for (let i = string.length -1; i >= 0; i--) {
+   stringReverse = stringReverse + string[i]
+    
+}
+
+console.log(stringReverse);

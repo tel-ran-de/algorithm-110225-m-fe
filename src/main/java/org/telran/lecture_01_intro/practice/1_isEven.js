@@ -8,3 +8,12 @@
 
 // Решение
 
+let isEven = 5;
+
+if (isEven % 2 === 0) {
+    console.log("even");
+    
+} else {
+    console.log("odd");
+}
+
