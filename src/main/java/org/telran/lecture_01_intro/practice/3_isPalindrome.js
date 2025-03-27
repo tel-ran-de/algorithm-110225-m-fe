@@ -9,3 +9,16 @@
 // Если строки равны, вывести "Строка - палиндром".
 // Иначе, вывести "Строка - не палиндром".
 // Конец.
+
+const string = "cooc";
+let reversed = "";
+
+for (let i = string.length - 1; i >= 0; i--) {
+    reversed += string[i];
+}
+
+if (string === reversed){
+    console.log("Палиндром");
+}else {
+    console.log("Не палиндром");
+}
