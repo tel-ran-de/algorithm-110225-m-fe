@@ -15,4 +15,16 @@
 
 // Напишите реализацию алгоритма.
 
+const array = [1, 2, 3];
+const maxIndex = {
+    maxNumber: array[0],
+    index: 0
+}
+for (let index = 1; index < array.length; index++) {
+    if (maxIndex.maxNumber < array[index]) {
+        maxIndex.maxNumber = array[index];
+        maxIndex.index = index;
+    }
+}
 
+console.log(maxIndex);
