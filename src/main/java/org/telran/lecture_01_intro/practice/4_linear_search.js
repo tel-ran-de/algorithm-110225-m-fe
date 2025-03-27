@@ -9,3 +9,16 @@
 
 
 // Решение
+
+let array = [1, 4, 5];
+let number = 4;
+
+for (let i = 0; i < array.length; i++) {
+ if (number = array[i]) {
+    console.log("Найдено");
+    
+ } else {
+    console.log("не найдено");
+ }
+    
+}

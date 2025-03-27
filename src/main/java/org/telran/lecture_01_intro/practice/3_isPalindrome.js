@@ -10,15 +10,19 @@
 // Иначе, вывести "Строка - не палиндром".
 // Конец.
 
-const string = "cooc";
-let reversed = "";
+let isPalindrome = 'ollo';
+let reverse = '';
 
-for (let i = string.length - 1; i >= 0; i--) {
-    reversed += string[i];
+for (let i = isPalindrome.length - 1; i >= 0; i--) {
+    reverse = reverse + isPalindrome[i]
+    console.log(reverse);
 }
 
-if (string === reversed){
-    console.log("Палиндром");
-}else {
-    console.log("Не палиндром");
+if (isPalindrome === reverse) {
+    console.log('palindrome');
+
+}
+else {
+    console.log('not a palindrome');
+
 }
