@@ -7,7 +7,7 @@ package org.telran.lecture_02_big_o.practice;
 //     Если элемент найден, вернуть его индекс.
 //     Если элемент не найден, вернуть -1.
 
-public class LinearSearch {
+public class t1_LinearSearch {
     public static void main(String[] args) {
 
     }

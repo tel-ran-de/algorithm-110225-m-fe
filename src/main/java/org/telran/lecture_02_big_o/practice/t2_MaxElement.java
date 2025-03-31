@@ -8,7 +8,7 @@ package org.telran.lecture_02_big_o.practice;
 //     Если текущий элемент больше наибольшего, обновить значение наибольшего.
 //     Вернуть наибольший элемент.
 
-public class MaxElement {
+public class t2_MaxElement {
     public static void main(String[] args) {
         System.out.println("Наибольший элемент: " + maxElement(new int[]{3, 7, 2, 9, 5, 10, 6}));
         System.out.println("Наибольший элемент: " + maxElement(new int[]{13, 7, 2, 9, 5, 10, 6}));

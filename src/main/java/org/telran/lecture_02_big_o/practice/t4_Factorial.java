@@ -7,7 +7,7 @@ package org.telran.lecture_02_big_o.practice;
 //     Умножить результат на все числа от 1 до заданного числа.
 //     Вернуть результат.
 
-public class Factorial {
+public class t4_Factorial {
     public static void main(String[] args) {
         // Test you solution
     }

@@ -8,7 +8,7 @@ package org.telran.lecture_02_big_o.practice;
 //     Если число делится на какое-то из этих чисел, то оно не простое.
 //     Если ни одно из чисел не является делителем, то число простое.
 
-public class IsPrime {
+public class t3_IsPrime {
     public static void main(String[] args) {
         System.out.println("isPrime(1) = " + isPrime(1));
         System.out.println("isPrime(2) = " + isPrime(2));
