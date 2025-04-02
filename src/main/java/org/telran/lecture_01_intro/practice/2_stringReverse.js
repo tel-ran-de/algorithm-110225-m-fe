@@ -10,12 +10,12 @@
 // Вывести результирующую строку.
 // Конец.
 
-//              01234
-const string = "hello";
-let reversed = "";
 
+let string = 'Hello';
+let stringReverse = '';
 for (let i = string.length - 1; i >= 0; i--) {
-    reversed += string[i];
+    stringReverse = stringReverse + string[i]
+
 }
 
-console.log(reversed);
+console.log(stringReverse);

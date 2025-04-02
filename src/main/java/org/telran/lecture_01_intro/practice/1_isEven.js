@@ -7,9 +7,13 @@
 // 4. Иначе, вывести "нечетное".
 
 // Решение
-const n = -8;
-if (n % 2 === 0){
-    console.log("Четное")
-}else{
-    console.log("Нечетное")
+
+
+let isEven = 5;
+
+if (isEven % 2 === 0) {
+    console.log("even");
+
+} else {
+    console.log("odd");
 }
