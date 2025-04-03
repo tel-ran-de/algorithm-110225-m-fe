@@ -16,3 +16,14 @@
 // Напишите реализацию алгоритма.
 
 
+let number1 = 16;
+let number2 = 56;
+let number3 = 8;
+let biggestNumber = number1
+if (biggestNumber < number2) {
+biggestNumber = number2
+}
+if (biggestNumber < number3) {
+    biggestNumber = number3
+}
+console.log(biggestNumber);
