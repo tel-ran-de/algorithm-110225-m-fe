@@ -7,10 +7,26 @@
 //     Если ни одно из чисел не является делителем, то число простое.
 
 function isPrime(number) {
+  if (number < 2) {
+    return false;
+  }
+  if (number === 2) {
+    return true;
+  }
+  if (number % 2 === 0) {
+    return false;
+  }
+  for (let i = 3; i <= number ** 0.5; i += 2) {
+    if (number % i === 0) return false;
+  }
 
-    return true
+  return true;
 }
+
 // Оценить сложность алгоритма
+//     Если я правильно понимаю, сложность алгоритма больше чем O(1) но меньше чем O(n) так как проверяем мы не весь ряд а только до √n
+//     Таким образом, сложность алгоритма - O(√n)
+
 console.log(`is_prime(1) - ${isPrime(1)}`)
 console.log(`is_prime(2) - ${isPrime(2)}`)
 console.log(`is_prime(3) - ${isPrime(3)}`)
