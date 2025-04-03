@@ -6,8 +6,18 @@
 //     Если текущий элемент больше наибольшего, обновить значение наибольшего.
 //     Вернуть наибольший элемент.
 
+const arr = [23, 45, 1, 7, 34, -3, 0, 34]
+
 function maxElement(numbers) {
-    // You code ...
+	let maxNum = numbers[0];
+	for (let i = 0; i < numbers.length; i++) {
+		if (numbers[i] > maxNum) {
+			maxNum = numbers[i];
+		}
+	}
+	return maxNum;
 }
+console.log(maxElement(arr))
 
 // Оценить сложность алгоритма
+// O(n) - Сложность зависит напрямую от количества элементов
