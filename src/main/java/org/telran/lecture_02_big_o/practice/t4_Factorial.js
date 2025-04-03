@@ -6,7 +6,15 @@
 //     Вернуть результат.
 
 function factorial(number) {
-    // You code ...
+    let fact = 1;
+    for (let index = 2; index <= number; index++) {
+        fact *= index;
+    }
+    return fact;
 }
 
+const number = 4;
+console.log(factorial(number));
+
 // Оценить сложность алгоритма
+// O(n)
