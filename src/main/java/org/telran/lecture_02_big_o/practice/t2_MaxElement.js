@@ -7,7 +7,13 @@
 //     Вернуть наибольший элемент.
 
 function maxElement(numbers) {
-    // You code ...
+    let maxelement = null;
+    for (const element of numbers) {
+        if (maxelement < element) maxelement = element;
+    }
+    return maxelement;
 }
-
+let arr = [64, 34, 25, 12, 22, 11, 90];
+console.log(maxElement(arr));
 // Оценить сложность алгоритма
+// O(n)
