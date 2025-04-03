@@ -7,9 +7,13 @@
 //     Если ни одно из чисел не является делителем, то число простое.
 
 function isPrime(number) {
-
-    return true
+    if ((number % 2 === 0) && (number > 2)) return false;
+    for (let index = 3; index < Math.sqrt(number); index += 2) {
+        if (number % index === 0) return false;
+    }
+    return true;
 }
+// О(√n)
 // Оценить сложность алгоритма
 console.log(`is_prime(1) - ${isPrime(1)}`)
 console.log(`is_prime(2) - ${isPrime(2)}`)
