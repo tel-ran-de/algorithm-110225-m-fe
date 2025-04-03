@@ -1,3 +1,44 @@
-Тестовый файл для проверки отправки решений через GitHub!
+Задача 1
 
-Отправьте ваше имя в качестве решения: ...
+function linear_search(numbers, target_number) {
+
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] === target_number) {
+            return i; 
+        }
+    }
+    return -1;
+}
+console.log(linear_search([2, 3, 5], 5)); 
+
+Задача 2
+
+function maxElement(numbers) {
+    let max = numbers[0]; 
+    for (let i = 1; i < numbers.length; i++) { 
+        if (numbers[i] > max) {
+            max = numbers[i]; 
+        }
+    }
+    return max;
+сложность O(n)
+
+Задача 3
+
+function isPrime(number) {
+    if (number === 2) return true   
+    if (number < 2 || number % 2 === 0) return false 
+
+    return true
+}
+сложность O(sqrt(n))
+Задача 4
+
+function factorial(number) {
+    let result = 1; 
+    for (let i = 1; i <= number; i++) { 
+        result *= i; 
+    }
+    return result; 
+}
+сложность сложность O(n)
