@@ -1,3 +1,15 @@
 Тестовый файл для проверки отправки решений через GitHub!
 
-Отправьте ваше имя в качестве решения: ...
+Отправьте ваше имя в качестве решения: ...Ganna Nosal
+let num_a = 10;
+let num_b = 25;
+let num_c = 17;
+
+let max = num_a;
+if (num_b > max) {
+    max = num_b;
+}
+if (num_c > max) {
+    max = num_c;
+}
+console.log("Наибольшее число:", max);
