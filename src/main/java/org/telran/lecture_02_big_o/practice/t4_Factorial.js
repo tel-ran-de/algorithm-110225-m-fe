@@ -7,6 +7,12 @@
 
 function factorial(number) {
     // You code ...
+    let res = 1;
+    for (let i = 1; i <= number; i++) {
+        res *= i; //1 * 2 * 3 * 4 * 5
+    }
+    return res;
 }
 
 // Оценить сложность алгоритма
+// O(n!) - факториальный
