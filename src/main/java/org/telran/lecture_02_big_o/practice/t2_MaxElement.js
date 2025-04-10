@@ -18,4 +18,4 @@ function maxElement(numbers) {
 }
 
 // Оценить сложность алгоритма
-//  O(n) - линейная
+//  O(n) 
